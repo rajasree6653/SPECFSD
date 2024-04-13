@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoo Keeper Application Form</title>
+</head>
+<body>
+
+<header>
+  <h1>Zoo Keeper Application Form</h1>
+</header>
+
+<main>
+
+<section id="application-form">
+  <form>
+    <h2>Contact Details:</h2>
+    <label for="name">Name *</label><br>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="telephone">Telephone</label><br>
+    <input type="tel" id="telephone" name="telephone"><br>
+    
+    <label for="email">Email *</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    
+    <h2>Personal Information:</h2>
+    <label for="age">Age *</label><br>
+    <input type="number" id="age" name="age" required><br>
+    
+    <label for="gender">Gender</label><br>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br>
+    
+    <label for="zoo_keeper_reason">When did you first know you wanted to be a zoo-keeper?</label><br>
+    <input type="zoo_keeper_reason" id="zoo_keeper_reason" name="zoo_keeper_reason" required><br>
+    
+    
+    <h2>Pick Your Favorite Animals:</h2>
+    
+      
+      <input type="checkbox" id="zebra" name="favorite_animals" value="zebra">
+      <label for="zebra">Zebra</label><br>
+      <input type="checkbox" id="cat" name="favorite_animals" value="cat">
+      <label for="cat">Cat</label><br>
+      <input type="checkbox" id="anaconda" name="favorite_animals" value="anaconda">
+      <label for="anaconda">Anaconda</label><br>
+      <input type="checkbox" id="human" name="favorite_animals" value="human">
+      <label for="human">Human</label><br>
+      <input type="checkbox" id="elephant" name="favorite_animals" value="elephant">
+      <label for="elephant">Elephant</label><br>
+      <input type="checkbox" id="wildbeest" name="favorite_animals" value="wildbeest">
+      <label for="wildbeest">Wildbeest</label><br>
+      <input type="checkbox" id="pigeon" name="favorite_animals" value="pigeon">
+      <label for="pigeon">Pigeon</label><br>
+      <input type="checkbox" id="crab" name="favorite_animals" value="crab">
+      <label for="crab">Crab</label><br>
+      <br>
+    
+    
+    <input type="submit" value="Submit">
+  </form>
+</section>
+
+</main>
+</body>
+</html>
